@@ -1,0 +1,15 @@
+langchain
+langchain-core
+
+langchain-ollama
+
+langchain-google-genai
+google-generativeai
+
+langchain-huggingface
+transformers
+huggingface-hub
+
+numpy
+python-dotenv
+ipykernel
