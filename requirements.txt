@@ -1,5 +1,6 @@
 langchain
 langchain-core
+langserve
 
 langchain-ollama
 
@@ -10,7 +11,15 @@ langchain-huggingface
 transformers
 huggingface-hub
 
+langchain_groq
+
 numpy
+torch
 python-dotenv
 ipykernel
 streamlit
+
+fastapi
+uvicorn
+sse_starlette
+pydantic
