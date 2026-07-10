@@ -289,20 +289,20 @@ sent with every request.
 
 ------------------------------------------------------------------------
 
-# Priority Order
+## Priority Order
 
-  Priority     Technique                    Impact
-  ------------ ---------------------------- -----------------------
-  ⭐⭐⭐⭐⭐   Reduce chat history          Very High
-  ⭐⭐⭐⭐⭐   Summarize conversations      Very High
-  ⭐⭐⭐⭐     Stream responses             High
-  ⭐⭐⭐⭐     Use faster model             High
-  ⭐⭐⭐⭐     Use RAG                      High
-  ⭐⭐⭐       Reduce retrieved documents   Medium
-  ⭐⭐⭐       Optimize prompts             Medium
-  ⭐⭐⭐       Cache responses              Medium
-  ⭐⭐         Better hardware/provider     Depends on deployment
-  ⭐⭐         Parallelize preprocessing    Depends on workflow
+| Priority | Technique | Impact |
+|:--------:|-----------|--------|
+| ⭐⭐⭐⭐⭐ | Reduce chat history | Very High |
+| ⭐⭐⭐⭐⭐ | Summarize conversations | Very High |
+| ⭐⭐⭐⭐ | Stream responses | High |
+| ⭐⭐⭐⭐ | Use a faster model | High |
+| ⭐⭐⭐⭐ | Use RAG | High |
+| ⭐⭐⭐ | Reduce retrieved documents | Medium |
+| ⭐⭐⭐ | Optimize prompts | Medium |
+| ⭐⭐⭐ | Cache responses | Medium |
+| ⭐⭐ | Better hardware/provider | Depends on deployment |
+| ⭐⭐ | Parallelize preprocessing | Depends on workflow |
 
 ------------------------------------------------------------------------
 
