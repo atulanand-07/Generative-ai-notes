@@ -9,7 +9,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 
 load_dotenv()
 
-llm = HuggingFaceEndpoint(model="deepseek-ai/DeepSeek-V4-Pro")
+llm = HuggingFaceEndpoint(model="Qwen/Qwen3.6-27B")
 model = ChatHuggingFace(llm=llm)
 
 prompt = ChatPromptTemplate.from_messages(

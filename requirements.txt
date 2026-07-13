@@ -1,5 +1,7 @@
 langchain
 langchain-core
+langchain-community
+langsmith
 langserve
 
 langchain-ollama
@@ -13,6 +15,9 @@ huggingface-hub
 
 langchain_groq
 
+sentence-transformers
+faiss-cpu
+
 numpy
 torch
 torchvision
@@ -24,3 +29,6 @@ fastapi
 uvicorn
 sse_starlette
 pydantic
+
+arxiv 
+wikipedia
